@@ -42,3 +42,5 @@ litle scripts
 - (dp 0 0) - при выборе не замкнутой полилинии размеры снаружи  
 
 - (dp 0 1) - при выборе не замкнутой полилинии размеры внутри
+
+- (foreach layout (layoutslist) (setvar "CTAB" layout) (setvar "PSLTSCALE" 0)) ;; insert in command line set style linea models to layouts
